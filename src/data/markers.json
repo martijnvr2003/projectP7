@@ -1,0 +1,60 @@
+{
+    "markers" : [
+        {
+            "id"    :0,
+            "sender":"mark rutte",
+            "desc"  :"ik zit thuis wie wil me helpee",
+            "lat"   :52.297905,
+            "lng"   :5.236630,
+            "action":0            
+        },
+        {
+            "id"    :0,
+            "sender":"hans maas",
+            "desc"  :"ik wil wandelen",
+            "lat"   :52.297801,
+            "lng"   :5.236680,
+            "action":0            
+        },        {
+            "id"    :0,
+            "sender":"joost rutte",
+            "desc"  :"ik zit thuis wie wil me helpee",
+            "lat"   :52.297932,
+            "lng"   :5.236663,
+            "action":0            
+        }
+
+    ],
+    "action":[
+        {
+            "id"       : 0,
+            "action"   : "Boodschappen doen",
+            "filename" : "boodschappendoen.svg",
+            "scale"    : 1
+        },
+        {
+            "id"       : 1,
+            "action"   : "Fietsen",
+            "filename" : "fietsen.svg",
+            "scale"    : 1
+        },
+        {
+            "id"       : 2,
+            "action"   : "Hardlopen",
+            "filename" : "hardlopen.svg",
+            "scale"    : 1
+        },
+        {
+            "id"       : 3,
+            "action"   : "Hond uitlaten",
+            "filename" : "honduitlaten.svg",
+            "scale"    : 1
+        },
+        {
+            "id"       : 4,
+            "action"   : "Wandelen",
+            "filename" : "wandelen.svg",
+            "scale"    : 1
+        }
+    ]
+}
