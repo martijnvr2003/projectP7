@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Corona live buurtapp</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="../Corona live app versie 17-02/style.css">
+
 </head>
 <body>
+
+  <section class="et-hero-tabs">
+    <h1>Corona Live Buuerapp</h1>
+    <h3>Samen komen we er door heen.</h3>
+    <div class="et-hero-tabs-container">
+      <a class="et-hero-tab" href="#tab-es6">Kaart</a>
+      <a class="et-hero-tab" href="#tab-flexbox">Toevoegen</a>
+      <a class="et-hero-tab" href="#tab-react">Chat</a>
+      <a class="et-hero-tab" href="#tab-angular">Acount</a>
+      <a class="et-hero-tab" href="#tab-other">Inlog</a>
+      <span class="et-hero-tab-slider"></span>
+    </div>
+  </section>
+
+
+  <main class="et-main">
+    <section class="et-slide" id="tab-es6">
+        <br>
+        <br>
+      <h1>kaart</h1>
     <div id="root"></div>
+
+    </section>
+    <section class="et-slide" id="tab-flexbox">
+      <h1>toevoegen</h1>
+      <h3>de toevoegen pagina</h3>
+    </section>
+    <section class="et-slide" id="tab-react">
+      <h1>chat</h1>
+      <h3>de chat pagina</h3>
+    </section>
+    <section class="et-slide" id="tab-angular">
+      <h1>acount</h1>
+      <h3>de acount pagina</h3>
+    </section>
+    <section class="et-slide" id="tab-other">
+      <h1>inlog</h1>
+      <h3>de inlog pagina</h3>
+      <h2></h2>
+      <h2></h2>
+      <h2></h2>
+      <h2></h2>
+      <div class="login-page">
+        <div class="form" >
+        <h1> gebruikers Login</h1><br>
+        <form  action="../index.html" method="post">
+          
+          <input type="text" name="username" placeholder="gebruikersnaam" id="username" required>
+          
+          <input type="password" name="password" placeholder="wachtwoord" id="password" required >
+          <input type="submit" value="Login">
+          <p class="message">admin? <a href="admin.html">login</a></p>
+          <br>
+          <p class="message">Geen account? <a href="dist/create.php">maak er een!</a></p>
+          <p class="message">wachtwoord vergeten? <a href="/dist/forget">vraag een nieuwe aan?</a></p>
+          
+        </form>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="..//Corona live app versie 17-02/script.js"></script>
+
 </body>
 </html>
+

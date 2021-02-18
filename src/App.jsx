@@ -11,7 +11,7 @@ function Map() {
 
     return (<GoogleMap 
                  defaultZoom={12} 
-                 defaultCenter={{lat:52.076918, lng:5.106366}}
+                 defaultCenter={{lat:52.297901, lng:5.236660}}
                  defaultOptions={{styles: mapStyles}}>
                 
                 {data.markers.map(marker =>
