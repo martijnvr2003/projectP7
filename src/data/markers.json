@@ -1,7 +1,7 @@
 {
     "markers" : [
         {
-            "id"    :0,
+            "id"    :1,
             "sender":"mark rutte",
             "desc"  :"ik zit thuis wie wil me helpee",
             "lat"   :52.297905,
@@ -9,14 +9,14 @@
             "action":0            
         },
         {
-            "id"    :0,
+            "id"    :2,
             "sender":"hans maas",
             "desc"  :"ik wil wandelen",
             "lat"   :52.297801,
             "lng"   :5.236680,
             "action":0            
         },        {
-            "id"    :0,
+            "id"    :3,
             "sender":"joost rutte",
             "desc"  :"ik zit thuis wie wil me helpee",
             "lat"   :52.297932,
@@ -25,7 +25,7 @@
         }
 
     ],
-    "action":[
+    "actions":[
         {
             "id"       : 0,
             "action"   : "Boodschappen doen",
@@ -47,7 +47,7 @@
         {
             "id"       : 3,
             "action"   : "Hond uitlaten",
-            "filename" : "honduitlaten.svg",
+            "fileame" : "honduitlaten.svg",
             "scale"    : 1
         },
         {

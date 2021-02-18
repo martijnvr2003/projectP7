@@ -50,5 +50,5 @@ module.exports = {
     }),
     new Dotenv()
   ],
-  mode: 'development'
+  mode: 'production'
 };
